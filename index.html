@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>MaterialX - Material Design Personal Template</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+  <!-- Favicon-->
+  <link rel="shortcut icon" href="http://localhost:3000/images/favicon.png" >
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="http://localhost:3000/css/normalize.css">
+  <link rel="stylesheet" href="http://localhost:3000/fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://localhost:3000/libs/materialize/css/materialize.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="http://localhost:3000/css/bootstrap.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="http://localhost:3000/css/animate.min.css" media="screen,projection" />
+  <link rel="stylesheet" href="http://localhost:3000/libs/sweetalert/sweet-alert.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="http://localhost:3000/libs/owl-carousel/owl.carousel.css" media="screen,projection" />
+  <link rel="stylesheet" href="http://localhost:3000/libs/owl-carousel/owl.transitions.css" media="screen,projection" />
+  <link rel="stylesheet" href="http://localhost:3000/libs/owl-carousel/owl.theme.css" media="screen,projection" />
+
+  <link rel="stylesheet" href="http://localhost:3000/css/main.css">
+  <link rel="stylesheet" href="http://localhost:3000/css/responsive.css">
+
+  
+  
+
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+    <!-- Preloader --> 
+    <div id="preloader">
+      <div class="loader">
+            <svg class="circle-loader" height="50" width="50">
+              <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="6" stroke-miterlimit="10" />
+            </svg>
+        </div>    
+    </div><!--preloader end-->
+
+  <!-- Main Container -->
+  <main id="app" class="main-section">
+    <!-- header navigation start -->
+    <header id="navigation" class="root-sec white nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="nav-inner">
+              <nav class="primary-nav">
+                <div class="clearfix nav-wrapper">
+                  <a href="http://localhost:3000" class="left brand-logo">
+                    
+                      <img src="http://localhost:3000/images/logo.jpg" alt="">
+                    
+                  </a>
+                  <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                  <ul class="right static-menu">
+                    <li class="search-form-li">
+                      <a id="initSearchIcon" class=""><i class="mdi-action-search"></i> </a>
+                      <div class="search-form-wrap hide">
+                        <form action="#" class="">
+                          <input type="search" class="search">
+                          <button type="submit"><i class="mdi-action-search"></i>
+                          </button>
+                        </form>
+                      </div>
+                    </li>
+                    <li>
+                      <a class="dropdown-button blog-submenu-init" href="#!" data-activates="dropdown1">
+                        <i class="mdi-navigation-more-vert right"></i>
+                      </a>
+                    </li>
+                  </ul>
+                  <ul class="inline-menu side-nav" id="mobile-demo">
+
+                  <!-- Mini Profile // only visible in Tab and Mobile -->
+                    <li class="mobile-profile">
+                     <div class="profile-inner">
+                        <div class="pp-container">
+                            
+                            <img src="http://localhost:3000/images/person.png" alt="">
+                            
+                        </div>
+                        <h3>Luchelle Ann Cabigon</h3>
+                        <h5>Licensed Real Estate Broker</h5>
+                      </div>
+                    </li><!-- mini profile end-->
+                    
+                    
+                    <li>
+                      
+                      <a href="#blog" data-section="#blog" class="menu-smooth-scroll">
+                      <i class="fa fa-pencil fa-fw"></i>Blog</a>
+                      
+                    </li>
+                    
+                    <li>
+                      
+                      <a href="#funfacts" data-section="#funfacts" class="menu-smooth-scroll">
+                      <i class="fa fa-pencil fa-fw"></i>Happy Clients</a>
+                      
+                    </li>
+                    
+                    <li>
+                      
+                      <a href="#testimonial" data-section="#testimonial" class="menu-smooth-scroll">
+                      <i class="fa fa-comments fa-fw"></i>Testimonials</a>
+                      
+                    </li>
+                    
+                    <li>
+                      
+                      <a href="#portfolio" data-section="#portfolio" class="menu-smooth-scroll">
+                      <i class="fa fa-briefcase fa-fw"></i>Listings</a>
+                      
+                    </li>
+                    
+                    <li>
+                      
+                      <a href="#contact" data-section="#contact" class="menu-smooth-scroll">
+                      <i class="fa fa-paper-plane fa-fw"></i>Contact</a>
+                      
+                    </li>
+                    
+                  </ul>
+                  <ul id="dropdown1" class="inline-menu submenu-ul dropdown-content">
+                    <li>Home</li>
+                    <li><a href="blog.html">All Blog</a>
+                    </li>
+                    <li><a href="blog-with-sidebar.html">Blog with Sidebar</a>
+                    </li>
+                    <li><a href="single.html">Single Blog</a>
+                    </li>
+                  </ul>
+
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- .container end -->
+    </header>
+    <!-- #header  navigation end -->
+
+    <!-- Home Section start -->
+    <section id="home" class="scroll-section root-sec grey lighten-5 home-wrap">
+      <div class="sec-overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="home-inner">
+                  <div class="center-align home-content">
+                    <h1 class="home-title">HI! I'm <span>Luchelle</span></h1>
+                    <h2 class="home-subtitle">I'm helping you Buy or Sell your property</h2>
+                    <h3 class="home-subtitle">I'm a Licensed Real Estate Broker</h3>
+                    <a href="#contact" class="hire-me-btn btn waves-effect waves-light btn-large green white-text regular-text">Contact Me <i class="mdi-content-send left"></i>
+                    </a>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+        <div class="section-call-to-area">
+          <div class="container">
+            <div class="row">
+              <a href="#about" class="btn-floating btn-large button-middle section-call-to-btn animated btn-up btn-hidden" data-section="#about">
+                <i class="mdi-navigation-expand-more"></i>
+              </a>
+            </div>
+          </div>
+          <!-- .container end -->
+        </div>
+      </div>
+    </section>
+    <!-- #home Section end -->
+
+<!-- Blog Section end -->
+    <section id="blog" class="scroll-section root-sec grey lighten-5 padd-tb-120 blog-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="blog-inner">
+            <div class="col-sm-12 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head blog-text">
+                  <div class="col-sm-10">
+                    <h2 class="title">I'm here to <i>Help</i></h2>
+                    <p class="regular-text">Me and my team are here to help you with your real estate needs. We've put up some articles that would, in some way, be helpful to you. Enjoy reading.</p>
+                  </div>
+                </div>
+                <div class="clearfix card-element-wrapper" id="blog-posts">
+                  
+                  
+
+                  
+                  <article class="col-sm-6 col-md-4 single-card-box single-post">
+                    <div class="card wow fadeInUpSmall" data-wow-duration=".7s">
+                      <div class="card-image">
+                        <div class="card-img-wrap">
+                          <div class="blog-post-thumb waves-effect waves-block waves-light">
+                            <a href="/2014/06/11/partner-friend.html"><img class="activator" src="http://placehold.it/350x200" alt="">
+                            </a>
+                          </div>
+                          <div class="post-body">
+                            <a href="single.html" class="post-title-link"><h2 class="green-text post-title">A Partner, A Friend</h2></a>
+                            <p class="post-content">We got your back We understand that real estate investing and buying is a big decision to make. For most...</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix card-content">
+                        <a href="#" class="left js-favorite" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">15</span></a>
+                        <a href="/2014/06/11/partner-friend.html" class="green-text right">Read More</a>
+                      </div>
+                    </div>
+                  </article> <!-- ./single blog post end -->
+                  
+                  
+
+                  
+                  <article class="col-sm-6 col-md-4 single-card-box single-post">
+                    <div class="card wow fadeInUpSmall" data-wow-duration=".7s">
+                      <div class="card-image">
+                        <div class="card-img-wrap">
+                          <div class="blog-post-thumb waves-effect waves-block waves-light">
+                            <a href="/2014/04/14/what-made-me-decide.html"><img class="activator" src="http://placehold.it/350x200" alt="">
+                            </a>
+                          </div>
+                          <div class="post-body">
+                            <a href="single.html" class="post-title-link"><h2 class="green-text post-title">What made me decide to become a Real Estate Practitioner? </h2></a>
+                            <p class="post-content">Looking back Just a single request from my mom, “Ann, please take the Real Estate Licensure Exam for me,” started...</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix card-content">
+                        <a href="#" class="left js-favorite" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">15</span></a>
+                        <a href="/2014/04/14/what-made-me-decide.html" class="green-text right">Read More</a>
+                      </div>
+                    </div>
+                  </article> <!-- ./single blog post end -->
+                  
+                  
+
+                  
+                  <article class="col-sm-6 col-md-4 single-card-box single-post">
+                    <div class="card wow fadeInUpSmall" data-wow-duration=".7s">
+                      <div class="card-image">
+                        <div class="card-img-wrap">
+                          <div class="blog-post-thumb waves-effect waves-block waves-light">
+                            <a href="/2014/03/17/how-much-are-you-paying-for.html"><img class="activator" src="http://placehold.it/350x200" alt="">
+                            </a>
+                          </div>
+                          <div class="post-body">
+                            <a href="single.html" class="post-title-link"><h2 class="green-text post-title">How much are you paying for?</h2></a>
+                            <p class="post-content">A client of ours came up to us looking for a property. She is a young professional, seeking to buy...</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="clearfix card-content">
+                        <a href="#" class="left js-favorite" title="Love this"><i class="mdi-action-favorite"></i><span class="numb">15</span></a>
+                        <a href="/2014/03/17/how-much-are-you-paying-for.html" class="green-text right">Read More</a>
+                      </div>
+                    </div>
+                  </article> <!-- ./single blog post end -->
+                  
+                </div>
+                <div class="clearfix left-align">
+                  <div class="col-sm-12">
+                    <a href="http://localhost:3000/post-with-cards.html" class="waves-effect waves-light btn-large load-more">See More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container -->
+    </section>
+    <!-- #blog Section end -->
+
+<!-- Funfacts Section end -->
+    <section id="funfacts" class="root-sec grey lighten-5 funfact-wrap">
+    <div class="sec-inner padd-tb-120">
+      <div class="container">
+        <div class="row">
+          <div class="funfact-inner">
+            <div class="col-sm-4 funfact-box">
+              <div class="center-align card-panel white">
+                <div class="feature-box-outer">
+                  <div class="funfact-box-inner">
+                    <div class="clearfix ">
+                      <i class="mdi-editor-insert-emoticon"></i>
+                      <span class="num countNumb">19</span>
+                    </div>
+                    <div class="context">Happy clients</div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- ./single fun fact box -->
+            <div class="col-sm-4 funfact-box">
+              <div class="center-align card-panel white">
+                <div class="feature-box-outer">
+                  <div class="funfact-box-inner">
+                    <div class="clearfix ">
+                      <i class="mdi-action-home"></i>
+                      <span class="num countNumb">3 </span>
+                    </div>
+                    <div class="context">Listings</div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- ./single fun fact box -->
+            <div class="col-sm-4 funfact-box">
+              <div class="center-align card-panel white">
+                <div class="feature-box-outer">
+                  <div class="funfact-box-inner">
+                    <div class="clearfix ">
+                      <i class="mdi-action-wallet-giftcard"></i>
+                      <span class="num countNumb">6</span>
+                    </div>
+                    <div class="context">Award Won</div>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- ./single fun fact box -->
+          </div>
+        </div>
+
+      </div>  <!-- .container end -->
+    </div>
+    </section>
+    <!-- #funfacts Section end -->
+
+<!-- Testimonial Section end -->
+    <section id="testimonial" class="scroll-section root-sec green padd-tb-120 testimonial-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="testimonial-inner">
+            <div class="col-sm-12 col-md-10 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head testimonial-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">testimonial</h2>
+                    <p class="regular-text">Here are some feedbacks we got from our clients and friends. I thank everyone for their kind words. These drives me and my team to deliver excellent service all the time.</p>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="overflow-hidden">
+                    <div class="row">
+                      <div id="testimonialSlider" class="clearfix card-element-wrapper">
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Thanks to Luchelle I got a 1 BR unit in Midori Residences. Now it's ready.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Rey Napoles -</span>
+                              <a href="#">San Miguel Corp</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Midori Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Boy Archie -</span>
+                              <a href="#">Manulife</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Midori Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Stephen Gabe -</span>
+                              <a href="#">Singapore</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Midori Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">JC Sevilla -</span>
+                              <a href="#">San Miguel Yamamura Packaging Corp</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Mivesa Garden Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Rica Tamala -</span>
+                              <a href="#">Uniliver</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Mivesa Garden Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Gener Zafra -</span>
+                              <a href="#">Young Professional</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Mivesa Garden Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Kiboi Arnado -</span>
+                              <a href="#">Lexmark</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Mivesa Garden Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Karlou Porquiado -</span>
+                              <a href="#">NEC</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Mivesa Garden Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Chrismon Uba -</span>
+                              <a href="#">NEC</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Mivesa Garden Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Gladys Ruiz -</span>
+                              <a href="#">NEC</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Mivesa Garden Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Randy Jones -</span>
+                              <a href="#">Arizona</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Mivesa Garden Residences through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Carla Budlong -</span>
+                              <a href="#">Technoprenuer</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Avida Towers Riala through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Geo Olmilla -</span>
+                              <a href="#">San Miguel Yamamura Packaging</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Avida Towers Riala through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Eve Olmilla -</span>
+                              <a href="#">Businesswoman</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a house in Casa Mira through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Giraehn Abriol -</span>
+                              <a href="#">Singapore</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a house in Casa Mira through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Chi Quizon -</span>
+                              <a href="#">Professional</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a house in Casa Mira through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Zaldy Zenith -</span>
+                              <a href="#">Professional</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Urban Homes through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Marife Cupin -</span>
+                              <a href="#">Accenture</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">I purchased a unit in Urban Homes through Luchelle.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Nez Nery -</span>
+                              <a href="#">Professional</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        
+                        <div class="col-sm-6 single-card-box wow fadeInUpSmall" data-wow-delay=".2s" data-wow-duration=".7s">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Amazing theme, amazing code and especially amazing support! I Really love your work.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Jonh Smith -</span>
+                              <a href="#">CEO, Apple Inc</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Amazing theme, amazing code and especially amazing support ! I Really love your work.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Jonh Smith -</span>
+                              <a href="#">CEO, Apple Inc</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Amazing theme, amazing code and especially amazing support ! I Really love your work.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Jonh Smith -</span>
+                              <a href="#">CEO, Apple Inc</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                        <div class="col-sm-6 single-card-box">
+                          <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                              <div class="card-img-wrap">
+                                <img class="activator" src="images/avatar.png" alt="">
+                                <p class="saying-about">Amazing theme, amazing code and especially amazing support ! I Really love your work.</p>
+                              </div>
+                            </div>
+                            <div class="card-content">
+                              <span class="card-title activator green-text">Jonh Smith -</span>
+                              <a href="#">CEO, Apple Inc</a>
+                            </div>
+                          </div>
+                        </div> <!-- ./single testimonial box -->
+                      </div> <!-- #testimonialSlider end -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn-wrapp tmo-ctrl">
+              <a class="btn-floating waves-effect waves-light btn-large white go go-left"><i class="mdi-navigation-chevron-left green-text"></i></a>
+              <a class="btn-floating waves-effect waves-light btn-large white go go-right"><i class="mdi-navigation-chevron-right green-text"></i></a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end -->
+    </section>
+    <!-- #testimonial Section end -->
+
+
+    <!-- Portfolio Section start -->
+    <section id="portfolio" class="scroll-section root-sec white portfolio-wrap">
+      <div class="padd-tb-120 green portfolio-top">
+        <div class="portfolio-inner">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <h2 class="title">LISTINGS</h2>
+                <ul class="inline-menu clearfix portfolio-category" id="portfolio-msnry-sort">
+                  <li class="active"><a href="#" data-target="*">All</a>
+                  </li>
+                  
+                  <li><a href="#" data-target=".condo">Condo</a>
+                  </li>
+                  
+                  <li><a href="#" data-target=".house_and_lot">House And Lot</a>
+                  </li>
+                  
+                  <li><a href="#" data-target=".lot">Lot only</a>
+                  </li>
+                  
+                  <li><a href="#" data-target=".rent">Rent</a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- .container end -->
+      </div>
+      <div id="portfolioModal" class="modal white">
+        <div class="model-img"></div>
+        <div class="modal-content">
+          <h2 class="title">Lorem ipsum dolor sit fugit dolore.</h2>
+          <p class="m-content">A portfolio is a collection of documents and writing that you assemble in order to demonstrate that you have the appropriate prior.</p>
+        </div>
+
+        <div class="modal-footer">
+          <a href="#" target="_blank" class="waves-effect btn-flat green-text modal-action">Interesting. Read More</a>
+          <a href="#" class="waves-effect btn-flat green-text modal-action modal-close">Close</a>
+        </div>
+      </div>
+
+      <div class="portfolio-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12">
+              <ul class="clearfix protfolio-item" id="protfolio-msnry">
+              
+
+              
+              
+              
+              
+              <!-- Single Portfolio-->
+                <li class="single-port-item house_and_lot">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="Velmiro Heights" data-content="Velmiro Heights — the newest modern mid-housing development in the south situated on a hill with friendly rolling terrain and..." data-demo-link="/listing/2014/01/01/velmiro-heights.html"> <!-- Portfolio pop-up content-->
+                    <div class="protfolio-image">
+                      <img src="http://placehold.it/390x280" alt="portfolio"> <!-- portfolio thumbnail-->
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Velmiro Heights</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+                
+
+              
+              
+              
+                
+              
+              
+                
+              
+              <!-- Single Portfolio-->
+                <li class="single-port-item condo">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="
+                  http://localhost:3000/images/650x350/mivesa-aerial-front.jpg 
+                " data-title="Mivesa Garden Residences" data-content="Master Planned Mivesa Garden Residences is a master-planned garden community, with integrated open spaces that cover 60% of a prime..." data-demo-link="/listing/2013/01/01/mivesa-garden-residences.html"> <!-- Portfolio pop-up content-->
+                    <div class="protfolio-image">
+                      <img src="
+                  http://localhost:3000/images/390x280/mivesa.jpg
+                " alt="portfolio"> <!-- portfolio thumbnail-->
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">Mivesa Garden Residences</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+                
+
+              
+              
+              
+              
+              <!-- Single Portfolio-->
+                <li class="single-port-item lot">
+                  <a href="#portfolioModal" class="waves-effect waves-block waves-light modal-trigger" data-image-source="http://placehold.it/650x350" data-title="San Jose Maria Village Balamban" data-content="Something’s chilling up south, a landmark of fresh new environment; transform the great terrain into a green panorama. Overlooking the..." data-demo-link="/listing/2012/01/01/san-jose-maria-village-balamban.html"> <!-- Portfolio pop-up content-->
+                    <div class="protfolio-image">
+                      <img src="http://placehold.it/390x280" alt="portfolio"> <!-- portfolio thumbnail-->
+                      <div class="protfolio-content waves-effect waves-block waves-light">
+                        <div class="protfolio-content__inner">
+                          <h2 class="p-title">San Jose Maria Village Balamban</h2>
+                        </div>
+                      </div>
+                      <div class="p-overlay"></div>
+                    </div>
+                  </a>
+                </li>
+                <!--/ single portfolio -->
+                
+              </ul>
+              <!-- portfolio load more button-->
+              <a id="portfolio-item-loader" href="#" class="btn-floating btn-large waves-effect waves-light green"><i class="mdi-content-add"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #portfolio Section end -->
+
+
+    <!-- Contact Section end -->
+    <section id="contact" class="scroll-section root-sec green padd-tb-120 contact-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="contact-inner">
+            <div class="col-sm-12 card-box-wrap">
+              <div class="row">
+                <div class="clearfix section-head contact-text">
+                  <div class="col-sm-12">
+                    <h2 class="title">Contact</h2>
+                    <p class="regular-text">Hernan Cortes Street, Casuntingan, Mandaue City, CEBU,PH</p>
+                    <ul class="clearfix contact-info">
+                      <li><a href="tel:+639176312463">0917 631 2463</a>
+                      </li>
+                      <li><a href="mailto:luchelle@cebuhomepages.com">luchelle@cebuhomepages.com</a>
+                      </li>
+                      <li><a href="http://localhost:3000">www.cebuhomepages.com</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div> <!-- contact text end -->
+
+                <div class="clearfix contact-form">
+
+                
+
+                <!-- Contact Form start -->
+                  <div class="col-sm-5">
+                    <div class="clearfix card-panel grey lighten-5 cform-wrapper">
+                      <form action="#" id="contactForm" novalidate>
+                        <div class="input-field">
+                          <input id="contact_name" type="text" name="contactName" class="validate input-box">
+                          <label for="contact_name" class="input-label">Your Name</label>
+                        </div>
+                        <div class="input-field">
+                          <input id="email" type="email" name="contactEmail" class="validate input-box">
+                          <label for="email" class="input-label">Your Email</label>
+                        </div>
+                        <div class="input-field">
+                          <input id="subject" type="text" name="contactSubject" class="validate input-box">
+                          <label for="subject" class="input-label">Subject</label>
+                        </div>
+                        <div class="input-field textarea-input">
+                          <textarea id="textarea1" name="contactMessage" class="validate materialize-textarea" style="height: 22px;"></textarea>
+                          <label for="textarea1" class="input-label">Message</label>
+                        </div>
+                        <div class="input-field submit-wrap clearfix">
+                          <button type="submit" class="left waves-effect btn-flat green-text submit-btn">send message</button>
+                          <div class="right form-loader-area">
+                            <svg class="circular size-20" height="20" width="20">
+                              <circle class="path" cx="10" cy="10" r="7" fill="none" stroke-width="3" stroke-miterlimit="10" />
+                            </svg>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div> <!-- ./contact form end -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end -->
+      <div class="section-call-to-area">
+        <div class="container">
+          <div class="row">
+            <a href="#home" class="btn-floating btn-large button-middle section-call-to-btn animated btn-up btn-hidden" data-section="#home">
+              <i class="mdi-navigation-expand-less"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- #contact Section end -->
+
+        <!-- Footer Section end -->
+    <footer id="footer" class="root-sec white root-sec footer-wrap">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="clearfix footer-inner">
+              <ul class="left social-icons">
+                <li><a href="https://facebook.com/cebuhomepages" class="tooltips tooltipped" data-position="top" data-delay="50" data-tooltip="Facebook"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li><a href="https://twitter.com/cebuhomepages" class="tooltips tooltipped" data-position="top" data-delay="50" data-tooltip="Twitter"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li><a href="https://google.com/+Cebuhomepages" class="tooltips tooltipped" data-position="top" data-delay="50" data-tooltip="Google Plus"><i class="fa fa-google-plus"></i></a>
+                </li>
+              </ul> <!-- ./social icons end -->
+              <div class="right copyright">
+                <p>Cebu Home Pages 2015 &copy; All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- ./container end-->
+    </footer>
+
+  </main>
+  <!-- Main Container end-->
+
+  <!-- JavaScripts -->
+  <script src="http://localhost:3000/js/jquery.min.js"></script>
+  <script src="http://localhost:3000/js/jquery.easing.1.3.js"></script>
+  <script src="http://localhost:3000/js/detectmobilebrowser.js"></script>
+  <script src="http://localhost:3000/js/isotope.pkgd.min.js"></script>
+  <script src="http://localhost:3000/js/wow.min.js"></script>
+  <script src="http://localhost:3000/js/waypoints.js"></script>
+  <script src="http://localhost:3000/js/jquery.counterup.min.js"></script>
+  <script src="http://localhost:3000/js/jquery.nicescroll.min.js"></script>
+  <script src="http://localhost:3000/libs/owl-carousel/owl.carousel.min.js"></script>
+  <script src="http://localhost:3000/libs/materialize/js/materialize.min.js"></script>
+  <script src="http://localhost:3000/libs/jwplayer/jwplayer.js"></script>
+  <script src="http://localhost:3000/libs/sweetalert/sweet-alert.min.js"></script>
+  <script src="http://localhost:3000/js/common.js"></script>
+  <script src="http://localhost:3000/js/main.js"></script>
+
+  <script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
+  <script src="https://cdn.firebase.com/js/simple-login/1.6.2/firebase-simple-login.js"></script>
+</body>
+
+</html>
